@@ -1,0 +1,58 @@
+﻿@model ASP.NET_MVC_Project.Models.Students
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Index</title>
+</head>
+<body>
+    <div>
+        <h3>Pass Data using parameter</h3>
+        @using (Html.BeginForm("PostUsingParameters", "PassDataFromView"))
+        {
+            <input type="text" name="FirstName" /><br /><br />
+            <input type="text" name="LastName" /><br /><br />
+            <input type="button" value="Click Here" />
+
+        }
+    </div>
+
+
+    <div>
+        <h3>Pass data using request</h3>
+
+        @using (Html.BeginForm("PostUsingRequest", "PassDataFromView"))
+        {
+            <input type="text" name="FirstName" /><br /><br />
+            <input type="text" name="LastName" /><br /><br />
+            <input type="submit" value="Click Here" />
+
+        }
+    </div>
+
+    <div>
+        <h3>Pass data using Form Collection</h3>
+
+        @using (Html.BeginForm("PostUsingFormCollection", "PassDataFromView"))
+        {
+            <input type="text" name="FirstName" /><br /><br />
+            <input type="text" name="LastName" /><br /><br />
+            <input type="submit" value="Click Here" />
+
+        }
+    </div>
+
+    <div>
+        <h3>Pass data using Strongly Binding</h3>
+
+        @using (Html.BeginForm("PostUsingStronglyBinding", "PassDataFromView"))
+        {
+            @Html.TextBoxFor(s => s.Name)<br /><br />
+            <input type="submit" value="Click Here" />
+
+        }
+    </div>
+</body>
+</html>

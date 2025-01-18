@@ -1,0 +1,26 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Index</title>
+</head>
+<body>
+    <div> 
+        <h3>Getting data from ViewBag : @ViewBag.myname</h3>
+        <h3>Revenue generated  : @ViewBag.Revenue</h3>
+        <h3>Data from ViewData : @ViewData["key1"]</h3>
+        
+        @*Accessing list passing through viewdata*@
+        @foreach(var item in (List<string>)ViewData["Listkey"])
+            {
+                <h3>@item</h3>
+            }
+    </div>
+</body>
+</html>

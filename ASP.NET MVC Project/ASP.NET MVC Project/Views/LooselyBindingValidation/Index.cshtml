@@ -1,0 +1,23 @@
+﻿@model ASP.NET_MVC_Project.Models.Students
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Index</title>
+</head>
+<body>
+    <div>
+        @using (Html.BeginForm("submitdata", "LooselyBindingValidation"))
+        {
+            @Html.TextBox("EmailId")<br />
+            @Html.TextBox("LastName")<br />
+            @Html.TextBox("Age")<br />
+            @Html.TextBox("Address")<br />
+
+            <input type="submit" name="Click Here"/>
+        }
+    </div>
+</body>
+</html>

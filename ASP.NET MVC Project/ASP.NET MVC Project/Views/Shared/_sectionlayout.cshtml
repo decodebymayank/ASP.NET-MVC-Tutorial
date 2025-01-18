@@ -1,0 +1,36 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>_sectionlayout</title>
+</head>
+<body>
+    <header style="background-color:aquamarine">
+        <h1>This is Header Page</h1>
+    </header>
+
+    <div>
+        @RenderBody()
+    </div>
+
+    <footer style="background-color:coral">
+        <h1>This is Footer Page</h1>
+    </footer>
+
+    <div>
+        Some Text Here of Index Method  -
+        @RenderSection("rendername", required: false)
+    </div>
+
+    <div>
+        Some Text Here of M1 Method  -
+        @RenderSection("rendersomething", required: false)
+    </div>
+</body>
+</html>

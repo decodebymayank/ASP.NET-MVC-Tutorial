@@ -1,0 +1,25 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Standard Html Helper</title>
+</head>
+<body>
+    <div>
+        @Html.ActionLink("Click Here", "About")<br /><br />
+
+        @*If u want to pass parameter*@
+        @Html.ActionLink("Click Here", "About",new {name="Mayank"})<br /><br />
+
+        @Html.TextBox("Enter Text Here","Some Text")<br /><br />
+
+        @Html.CheckBox("Check Box 1")
+    </div>
+</body>
+</html>

@@ -1,0 +1,41 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Index</title>
+</head>
+<body>
+    <div> 
+        @DateTime.Now
+    </div>
+    <div>
+        <h3>Subtraction of two numbers is : @(5-3)</h3>
+    </div>
+    <div>
+        
+        @{ 
+            var a = 10;
+            var b = 100;
+            var c = a + b;
+        }
+
+    </div>
+
+    @*<h3>Comment</h3>*@
+
+    <div>
+        <h3>Sum of two numbers is : @c</h3>
+    </div>
+
+    <div>
+        <h3>demo@gmail.com</h3>
+    </div>
+
+</body>
+</html>

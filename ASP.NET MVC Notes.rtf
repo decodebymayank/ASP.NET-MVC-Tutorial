@@ -1,0 +1,308 @@
+{\rtf1\ansi\ansicpg1252\deff0\nouicompat\deflang1033{\fonttbl{\f0\fnil\fcharset0 Times New Roman;}{\f1\fnil Cascadia Mono;}{\f2\fnil\fcharset0 Cascadia Mono;}{\f3\fnil\fcharset0 Calibri;}{\f4\fnil\fcharset2 Symbol;}}
+{\colortbl ;\red163\green21\blue21;\red255\green255\blue255;\red0\green128\blue0;\red0\green0\blue0;\red0\green0\blue255;}
+{\*\generator Riched20 10.0.19041}\viewkind4\uc1 
+\pard\sa200\sl276\slmult1\ul\b\f0\fs28\lang9 Lecture :- 05 ( Controllers in MVC )\par
+\par
+What is Controller ? \ulnone\b0 :-\ul\b\par
+
+\pard{\pntext\f4\'B7\tab}{\*\pn\pnlvlblt\pnf4\pnindent0{\pntxtb\'B7}}\fi-360\li720\sa200\sl276\slmult1\ulnone\b0 It is .cs file\b\par
+{\pntext\f4\'B7\tab}\b0 Controller word is used with every controller name like ( HomeController ) .\b\par
+{\pntext\f4\'B7\tab}\b0 It is inherited from controller class .\b\par
+
+\pard\sa200\sl276\slmult1\ul Role Of a Controller \ulnone :- \par
+
+\pard{\pntext\f4\'B7\tab}{\*\pn\pnlvlblt\pnf4\pnindent0{\pntxtb\'B7}}\fi-360\li720\sa200\sl276\slmult1\b0 Work with user input\b\par
+{\pntext\f4\'B7\tab}\b0 Our custom controller inherit from another controller class \b\par
+{\pntext\f4\'B7\tab}\b0 Controller word is always there in prefix during creating a controller \b\par
+
+\pard\sa200\sl276\slmult1\ul What are action methods ?\ulnone  \b0 :-\par
+
+\pard{\pntext\f4\'B7\tab}{\*\pn\pnlvlblt\pnf4\pnindent0{\pntxtb\'B7}}\fi-360\li720\sa200\sl276\slmult1 A method inside a controller is called action method\b\par
+{\pntext\f4\'B7\tab}\b0 Default return type of action method is ActionResult\b\par
+{\pntext\f4\'B7\tab}\b0 Only public method can be access from http\b\par
+{\pntext\f4\'B7\tab}\b0 By default all action methods are get method \b\par
+{\pntext\f4\'B7\tab}\b0 An action method can return view , file , partial view , json etc .\b\par
+
+\pard\sa200\sl276\slmult1\ul Make a call from browser\ulnone  \b0 :-\par
+
+\pard{\pntext\f4\'B7\tab}{\*\pn\pnlvlblt\pnf4\pnindent0{\pntxtb\'B7}}\fi-360\li720\sa200\sl276\slmult1 DomainName/ControllerName/ActionMethodName\b\par
+{\pntext\f4\'B7\tab}\b0 App_Start :- Route.config in which all routes are present\b\par
+
+\pard\sa200\sl276\slmult1\ul Parameters in action method \ulnone\b0 :- \par
+
+\pard{\pntext\f4\'B7\tab}{\*\pn\pnlvlblt\pnf4\pnindent0{\pntxtb\'B7}}\fi-360\li720\sa200\sl276\slmult1 Parameters are required to get data which is sent in url\b\par
+{\pntext\f4\'B7\tab}\b0 DomainName/ControllerName/MethodName?Id=10\b\par
+
+\pard\sa200\sl276\slmult1\ul New / Existing Controller \ulnone\b0 :- \par
+
+\pard{\pntext\f4\'B7\tab}{\*\pn\pnlvlblt\pnf4\pnindent0{\pntxtb\'B7}}\fi-360\li720\sa200\sl276\slmult1 All the operations related to same entity should be in same controller\b\par
+
+\pard\sa200\sl276\slmult1\b0  \par
+\ul\b Lecture :- 06 ( View in MVC )\par
+\par
+What is View \ulnone\b0 ? :-\par
+
+\pard{\pntext\f4\'B7\tab}{\*\pn\pnlvlblt\pnf4\pnindent0{\pntxtb\'B7}}\fi-360\li720\sa200\sl276\slmult1 It is .cshtml file ( csharph + html )\par
+{\pntext\f4\'B7\tab}UI of application\par
+{\pntext\f4\'B7\tab}Support pure html text\par
+{\pntext\f4\'B7\tab}Everything which is visible on browser is view\par
+
+\pard\sa200\sl276\slmult1\ul\b Why View is required ? \ulnone\b0 :-\par
+
+\pard{\pntext\f4\'B7\tab}{\*\pn\pnlvlblt\pnf4\pnindent0{\pntxtb\'B7}}\fi-360\li720\sa200\sl276\slmult1 To make application interactive\par
+{\pntext\f4\'B7\tab}Esay to use\par
+{\pntext\f4\'B7\tab}To use html and client side framework like js , jquery and etc\par
+{\pntext\f4\'B7\tab}If a action method is returning someview then its type should be ActionResult or ViewResult\par
+
+\pard\sa200\sl276\slmult1\ul\b Add View\ulnone\b0  :- \par
+
+\pard{\pntext\f4\'B7\tab}{\*\pn\pnlvlblt\pnf4\pnindent0{\pntxtb\'B7}}\fi-360\li720\sa200\sl276\slmult1 Just right click on method and add view\par
+{\pntext\f4\'B7\tab}ActionResult is a parent class of ViewResult\par
+
+\pard\sa200\sl276\slmult1\ul\b Call View from browser\ulnone\b0  :- \par
+
+\pard{\pntext\f4\'B7\tab}{\*\pn\pnlvlblt\pnf4\pnindent0{\pntxtb\'B7}}\fi-360\li720\sa200\sl276\slmult1 Browser can not directly call view \par
+{\pntext\f4\'B7\tab}Every call must go through controller\par
+{\pntext\f4\'B7\tab}Which views sharde folder contains those are common for every particular view\par
+{\pntext\f4\'B7\tab}After MVC3 we are using razor view engine\par
+{\pntext\f4\'B7\tab}Shared folder contains partial view\par
+{\pntext\f4\'B7\tab}If view name change , thne pass name of view inside View()\par
+{\pntext\f4\'B7\tab}\cf1\highlight2\f1\fs19 "~/View/NewView/myview.cshtml"\f2\lang1033  :- \cf3\f1 path of our view which is in different folder\cf0\highlight0\f0\fs28\lang9\par
+
+\pard\sa200\sl276\slmult1\ul\b\par
+Lecture :- 07 ( Model in MVC )\par
+\par
+What is model ?\ulnone\b0  :- \par
+
+\pard{\pntext\f4\'B7\tab}{\*\pn\pnlvlblt\pnf4\pnindent0{\pntxtb\'B7}}\fi-360\li720\sa200\sl276\slmult1 .cs file\ul\b\par
+{\pntext\f4\'B7\tab}\ulnone\b0 Model is responsible for data \ul\b\par
+{\pntext\f4\'B7\tab}\ulnone\b0 In dynamic website data comes from database through these models\ul\b\par
+{\pntext\f4\'B7\tab}\ulnone\b0 @model (name) :- To use model in particular view\ul\b\par
+{\pntext\f4\'B7\tab}\ulnone\b0 @Model.(property) :- To use value of that particular property through model \ul\b\par
+
+\pard\sa200\sl276\slmult1\ulnone\par
+\ul Lecture :- 11 (  Standard Html Helpers )\par
+\par
+
+\pard{\pntext\f4\'B7\tab}{\*\pn\pnlvlblt\pnf4\pnindent0{\pntxtb\'B7}}\fi-360\li720\sa200\sl276\slmult1\ulnone\b0 Pure C# method are known as html helpers\ul\b\par
+
+\pard\sa200\sl276\slmult1 Built-in Html Helpers\ulnone\b0  :- \par
+
+\pard{\pntext\f4\'B7\tab}{\*\pn\pnlvlblt\pnf4\pnindent0{\pntxtb\'B7}}\fi-360\li720\sa200\sl276\slmult1 These are already created by ASP.NET MVC\ul\b\par
+{\pntext\f4\'B7\tab}\ulnone\b0 These methods have multiple override so that we can use as per our requirements\ul\b\par
+
+\pard\sa200\sl276\slmult1 Standard Html Helpers \ulnone\b0 :- \par
+
+\pard{\pntext\f4\'B7\tab}{\*\pn\pnlvlblt\pnf4\pnindent0{\pntxtb\'B7}}\fi-360\li720\sa200\sl276\slmult1 @Html.ActionLink("click me","Method Name","Another Controller Name")\ul\b\par
+{\pntext\f4\'B7\tab}\ulnone\b0 @Html.TextBox("Enter Text Here") :- It will create a text box\ul\b\par
+{\pntext\f4\'B7\tab}\ulnone\b0 @Html.Password("Mypassword") \ul\b\par
+{\pntext\f4\'B7\tab}\ulnone\b0 And Many More\ul\b\par
+
+\pard\sa200\sl276\slmult1\ulnone\par
+\ul Lecture :- 12 (  Strongly Typed Html Helpers )\par
+\par
+
+\pard{\pntext\f4\'B7\tab}{\*\pn\pnlvlblt\pnf4\pnindent0{\pntxtb\'B7}}\fi-360\li720\sa200\sl276\slmult1\ulnone\b0 Model ( Property ) + View ( Html ) ===> Strongly Type View\ul\b\par
+{\pntext\f4\'B7\tab}\ulnone\b0 Using strongly binding we can pass our data to view from controller\ul\b\par
+{\pntext\f4\'B7\tab}\ulnone\b0 After using @using , its instrance automatically destroy\ul\b\par
+
+\pard\sa200\sl276\slmult1 How To Use ? \ulnone\b0  :- \par
+
+\pard{\pntext\f4\'B7\tab}{\*\pn\pnlvlblt\pnf4\pnindent0{\pntxtb\'B7}}\fi-360\li720\sa200\sl276\slmult1 @Html.TextBoxFor(model = > model.property)\ul\b\par
+
+\pard\sa200\sl276\slmult1\ulnone\par
+\ul Lecture :- 13 (  Templated Html Helpers )\par
+\par
+
+\pard{\pntext\f4\'B7\tab}{\*\pn\pnlvlblt\pnf4\pnindent0{\pntxtb\'B7}}\fi-360\li720\sa200\sl276\slmult1\ulnone\b0 Use for data display and input only\ul\b\par
+{\pntext\f4\'B7\tab}\ulnone\b0 It generate html automatically as per model property\ul\b\par
+{\pntext\f4\'B7\tab}\ulnone\b0 Attributes we use in our model class :- \ul\b\par
+
+\pard\sa200\sl276\slmult1\ulnone\b0\tab using System.ComponentModel.DataAnnotations;\par
+
+\pard{\pntext\f4\'B7\tab}{\*\pn\pnlvlblt\pnf4\pnindent0{\pntxtb\'B7}}\fi-360\li720\sa200\sl276\slmult1 Attributes we use when we want to display something on view through property\ul\b\par
+{\pntext\f4\'B7\tab}\ulnone\b0 @Html.DisplayModelFor() :- for all property \ul\b\par
+
+\pard\sa200\sl276\slmult1\ulnone\b0\par
+\ul\b Types of templated html helper \ulnone\b0 :-\par
+\ul\b For Display :- \ulnone\b0\par
+
+\pard{\pntext\f4\'B7\tab}{\*\pn\pnlvlblt\pnf4\pnindent0{\pntxtb\'B7}}\fi-360\li720\sa200\sl276\slmult1 @Html.Dsiplay()\ul\b\par
+{\pntext\f4\'B7\tab}\ulnone\b0 @Html.DisplayFor()\ul\b\par
+{\pntext\f4\'B7\tab}\ulnone\b0 And Many More\ul\b\par
+
+\pard\sa200\sl276\slmult1\par
+For Edit/Input:-\ulnone\b0  \par
+
+\pard{\pntext\f4\'B7\tab}{\*\pn\pnlvlblt\pnf4\pnindent0{\pntxtb\'B7}}\fi-360\li720\sa200\sl276\slmult1 @Html.Editior()\ul\b\par
+{\pntext\f4\'B7\tab}\ulnone\b0 @Html.EditorFor()\ul\b\line\par
+
+\pard\sa200\sl276\slmult1 Lecture :- 15 (  ViewBag & ViewData )\par
+\par
+
+\pard{\pntext\f4\'B7\tab}{\*\pn\pnlvlblt\pnf4\pnindent0{\pntxtb\'B7}}\fi-360\li720\sa200\sl276\slmult1\ulnone\b0 Both ViewBag and ViewData is use to pass data from controller to view\par
+
+\pard\sa200\sl276\slmult1\ul\b ViewBag\ulnone\b0  :- \par
+
+\pard{\pntext\f4\'B7\tab}{\*\pn\pnlvlblt\pnf4\pnindent0{\pntxtb\'B7}}\fi-360\li720\sa200\sl276\slmult1 ViewBag is a dynamic property\par
+{\pntext\f4\'B7\tab}Use to send data from controller to view\par
+{\pntext\f4\'B7\tab}we can assign any name to property\par
+{\pntext\f4\'B7\tab}ViewBag.Property = value ;\par
+
+\pard\sa200\sl276\slmult1\par
+\ul\b ViewData\ulnone\b0  :- \par
+
+\pard{\pntext\f4\'B7\tab}{\*\pn\pnlvlblt\pnf4\pnindent0{\pntxtb\'B7}}\fi-360\li720\sa200\sl276\slmult1 ViewData works as a dictionary \par
+{\pntext\f4\'B7\tab}Also used to send data from controller to view\par
+{\pntext\f4\'B7\tab}Assign any name in place of key\par
+{\pntext\f4\'B7\tab}ViewData["Key"] = value;\par
+
+\pard\sa200\sl276\slmult1\par
+\ul\b Disadvantages :-\ulnone\b0\par
+
+\pard{\pntext\f4\'B7\tab}{\*\pn\pnlvlblt\pnf4\pnindent0{\pntxtb\'B7}}\fi-360\li720\sa200\sl276\slmult1 No compiletime checking\par
+{\pntext\f4\'B7\tab}key or property name can be change\par
+{\pntext\f4\'B7\tab}Need to cast while sending data through list using view\par
+{\pntext\f4\'B7\tab}Can't send data from view to controller\par
+
+\pard\sa200\sl276\slmult1\par
+\ul\b Lecture :- 16 (  TempData )\par
+\ulnone\b0\par
+\ul\b What is TempData ?\ulnone\b0  :- \par
+
+\pard{\pntext\f4\'B7\tab}{\*\pn\pnlvlblt\pnf4\pnindent0{\pntxtb\'B7}}\fi-360\li720\sa200\sl276\slmult1 We use tempdata when we need a value of tempdata after current cycle (  only for one cycle )\par
+{\pntext\f4\'B7\tab} TempData can use within same controller also and in another controller also\par
+{\pntext\f4\'B7\tab} TempData internally use session to store data \par
+{\pntext\f4\'B7\tab}When session ends data of tempdata goes \par
+
+\pard\sa200\sl276\slmult1\par
+\ul\b Keep() Method\ulnone\b0 :- \par
+
+\pard{\pntext\f4\'B7\tab}{\*\pn\pnlvlblt\pnf4\pnindent0{\pntxtb\'B7}}\fi-360\li720\sa200\sl276\slmult1 To save data for next to next http call , so for that we use keep() method\par
+{\pntext\f4\'B7\tab}TempData.Keep("key") :- for particular key\par
+{\pntext\f4\'B7\tab}TempData.Keep() :- Hold values for other remaining method also\par
+
+\pard\sa200\sl276\slmult1\par
+\ul\b Peek() Method:-\ulnone\b0  \par
+
+\pard{\pntext\f4\'B7\tab}{\*\pn\pnlvlblt\pnf4\pnindent0{\pntxtb\'B7}}\fi-360\li720\sa200\sl276\slmult1 Through peek method we can read data also and save also for next method where ever we want to use \par
+
+\pard\sa200\sl276\slmult1\par
+\ul\b Lecture :- 17 (  HttpVerbs )\ulnone\b0\par
+\par
+
+\pard{\pntext\f4\'B7\tab}{\*\pn\pnlvlblt\pnf4\pnindent0{\pntxtb\'B7}}\fi-360\li720\sa200\sl276\slmult1 Http :- Hyper Text Transfer Protocol\par
+{\pntext\f4\'B7\tab}Protocol provide communication between client and server\par
+{\pntext\f4\'B7\tab}Http provided some verbs ( methods ) for particular type of action performed\par
+{\pntext\f4\'B7\tab}Get , Post , Delete , Put\par
+{\pntext\f4\'B7\tab}These verbs are used on action method\par
+
+\pard\sa200\sl276\slmult1\par
+\ul\b HttpGet :-\ulnone\b0\par
+
+\pard{\pntext\f4\'B7\tab}{\*\pn\pnlvlblt\pnf4\pnindent0{\pntxtb\'B7}}\fi-360\li720\sa200\sl276\slmult1 Used to get existing data from database \par
+{\pntext\f4\'B7\tab}Example :- domain.com/controller/method?parameter=value\par
+{\pntext\f4\'B7\tab}Attribute :- which we mentioned in square bracket\par
+
+\pard\sa200\sl276\slmult1\par
+\ul\b HttpPost:-\ulnone\b0\par
+
+\pard{\pntext\f4\'B7\tab}{\*\pn\pnlvlblt\pnf4\pnindent0{\pntxtb\'B7}}\fi-360\li720\sa200\sl276\slmult1 To post some data \par
+{\pntext\f4\'B7\tab}Example :- Json Body\par
+
+\pard\sa200\sl276\slmult1\par
+\ul\b HttpPut:-\ulnone\b0\par
+
+\pard{\pntext\f4\'B7\tab}{\*\pn\pnlvlblt\pnf4\pnindent0{\pntxtb\'B7}}\fi-360\li720\sa200\sl276\slmult1 To Update something\par
+
+\pard\sa200\sl276\slmult1\par
+\ul\b HttpDelete:-\ulnone\b0\par
+
+\pard{\pntext\f4\'B7\tab}{\*\pn\pnlvlblt\pnf4\pnindent0{\pntxtb\'B7}}\fi-360\li720\sa200\sl276\slmult1 To delete something from database\par
+
+\pard\sa200\sl276\slmult1\tab\par
+\ul\b Lecture :- 18 (  Routing )\ulnone\b0\par
+\par
+\ul\b What is Routing ?\ulnone\b0 :- \par
+
+\pard{\pntext\f4\'B7\tab}{\*\pn\pnlvlblt\pnf4\pnindent0{\pntxtb\'B7}}\fi-360\li720\sa200\sl276\slmult1 Routing is a patten matching system\par
+{\pntext\f4\'B7\tab}Routing maps incoming request to particular ( controller and method )\par
+{\pntext\f4\'B7\tab}Example :- domain.com/Controller/ActionMethod\par
+
+\pard\sa200\sl276\slmult1\par
+\ul\b How Routing works ?\ulnone\b0  :- \par
+Request ------------>  Parse URL -----------------------> Find Matching URL ( Route Table ) \par
+\par
+\ul\b Route Table :-\ulnone\b0\par
+
+\pard{\pntext\f4\'B7\tab}{\*\pn\pnlvlblt\pnf4\pnindent0{\pntxtb\'B7}}\fi-360\li720\sa200\sl276\slmult1 We define route for each action method\par
+{\pntext\f4\'B7\tab}All routes are stored in route table\par
+{\pntext\f4\'B7\tab}Each incoming request match from this route table\par
+{\pntext\f4\'B7\tab}If url match then request goes to related controller actrion method\par
+
+\pard\sa200\sl276\slmult1\par
+\ul\b Two types of routing :- \ulnone\b0\par
+
+\pard{\pntext\f4\'B7\tab}{\*\pn\pnlvlblt\pnf4\pnindent0{\pntxtb\'B7}}\fi-360\li720\sa200\sl276\slmult1 Traditional way ( using routeconfig )\par
+{\pntext\f4\'B7\tab}Attribute routing ( Available in MVC 5 )\par
+
+\pard\sa200\sl276\slmult1\par
+\ul\b Lecture :- 19 ( Traditional way of Routing )\par
+\ulnone\b0\par
+\ul\b Traditional way of routing :-\ulnone\b0\par
+
+\pard{\pntext\f4\'B7\tab}{\*\pn\pnlvlblt\pnf4\pnindent0{\pntxtb\'B7}}\fi-360\li720\sa200\sl276\slmult1 Routing is pattern matching system for url that mpas incoming request with controller action method\par
+{\pntext\f4\'B7\tab}We set all the routes in RouteConfig file\par
+{\pntext\f4\'B7\tab}RouteConfig is available in app_start folder\par
+{\pntext\f4\'B7\tab}We need to register all the routes to make them operational\par
+{\pntext\f4\'B7\tab}When our applications runs , app_start method runs first which is in global.asax\par
+{\pntext\f4\'B7\tab}Routes ptresent inm  method which is prsent in routeconfig file , that method need to register in global.asax file\par
+{\pntext\f4\'B7\tab}Default route add at the end same like default case\par
+{\pntext\f4\'B7\tab}Two routes for one action method will work , but one route for two action method will not work\par
+
+\pard\sa200\sl276\slmult1\par
+\ul\b Adding View through Scaffolding :-\ulnone\b0\par
+
+\pard{\pntext\f4\'B7\tab}{\*\pn\pnlvlblt\pnf4\pnindent0{\pntxtb\'B7}}\fi-360\li720\sa200\sl276\slmult1 Right click on method -----> Add View ----> select template and model -----> then ok\par
+{\pntext\f4\'B7\tab}Here in url we will get id during run time , and name should be different in route\par
+
+\pard\sa200\sl276\slmult1\cf4\highlight2\f1\fs19 routes.MapRoute\par
+    (\par
+        name: \cf1 "allstudents"\cf4 ,\par
+        url: \cf1 "RouteFile/\{id\}"\cf4 ,\par
+        defaults: \cf5 new\cf4  \{ \cf5 Controller\cf4  = \cf1 "Routefile"\cf4 , Action = \cf1 "Getallstudents"\cf4  \}\par
+    );\cf0\highlight0\f0\fs28\par
+\par
+\ul\b Lecture :- 20 ( Attribute Routing )\par
+\ulnone\b0\par
+
+\pard{\pntext\f4\'B7\tab}{\*\pn\pnlvlblt\pnf4\pnindent0{\pntxtb\'B7}}\fi-360\li720\sa200\sl276\slmult1 To know MVC application , we call one method in routeconfig \par
+
+\pard\sa200\sl276\slmult1\tab routes.MapMvcAttributeRoutes();\par
+
+\pard{\pntext\f4\'B7\tab}{\*\pn\pnlvlblt\pnf4\pnindent0{\pntxtb\'B7}}\fi-360\li720\sa200\sl276\slmult1 Above method ----> [Route("allstudents")]\par
+
+\pard\sa200\sl276\slmult1\tab After mentioning allstudents , there no need to call method name and controller name\par
+
+\pard{\pntext\f4\'B7\tab}{\*\pn\pnlvlblt\pnf4\pnindent0{\pntxtb\'B7}}\fi-360\li720\sa200\sl276\slmult1 We can use [RoutePrefix("common part")]\par
+{\pntext\f4\'B7\tab}[Route("\{id:int\}")] :- when same route but with different type of parameter\par
+{\pntext\f4\'B7\tab}[Route("~/about-method")] :- To override route written in RoutePrefix\par
+{\pntext\f4\'B7\tab}We can use multiple route for single action method\par
+
+\pard\sa200\sl276\slmult1\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\b\par
+\b0\f3\fs22\par
+}
+ 

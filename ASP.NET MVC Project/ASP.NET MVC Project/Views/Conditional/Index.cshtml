@@ -1,0 +1,56 @@
+﻿
+@using ASP.NET_MVC_Project.Models
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Index</title>
+</head>
+<body>
+    <div>
+        @*If-Else Condition*@
+
+        @if (2 > 3)
+        {
+            <h3>Condtion True</h3>
+        }
+        else
+        {
+            <h3>Condition False</h3>
+        }
+
+        
+    </div>
+
+    <div>
+        <h3>Ternary Condition</h3>
+        @(2>3 ? "Sab thik hai" : "Sab galat hai")
+    </div>
+
+    <div>
+
+        @for (int i = 0; i < 10; i++)
+        {
+            <h3>For Loop interation : @i</h3>
+        }
+
+    </div>
+
+    <div>
+        @{ 
+            var mylist = new List<int>() { 1, 2, 3, 4, 5 };
+
+        }
+    </div>
+
+    <div>
+        @foreach(var item in mylist)
+            {
+                <h3>@item</h3>
+            }
+    </div>
+
+</body>
+</html>

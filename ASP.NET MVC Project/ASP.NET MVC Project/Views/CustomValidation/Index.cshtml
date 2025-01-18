@@ -1,0 +1,29 @@
+﻿@model ASP.NET_MVC_Project.Models.Customclas
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Index</title>
+</head>
+<body>
+    <div>
+        <div>
+            @using (Html.BeginForm("Postmethod", "CustomValidation", FormMethod.Post))
+
+            {
+                @Html.ValidationSummary()
+
+                @Html.EditorFor(s => s.name)<br /><br />
+                @Html.EditorFor(s => s.address)<br /><br />
+
+                <input type="submit" name="Click Me" />
+            }
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,32 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Index</title>
+</head>
+<body>
+    <div> 
+            @helper myhelper(string[] name)
+                {
+                    <ul>
+                        @foreach(var item in name)
+                        {
+                                <li>
+                                    @item
+                                </li>
+                        }
+                    </ul>
+                }
+    </div>
+
+    <div>
+        @myhelper(new string[] {"name1" , "name2" , "name3"})
+    </div>
+</body>
+</html>

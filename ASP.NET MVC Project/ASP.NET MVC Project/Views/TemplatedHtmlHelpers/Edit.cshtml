@@ -1,0 +1,19 @@
+﻿@model ASP.NET_MVC_Project.Models.TemplatedHtmlHelpers
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Edit</title>
+</head>
+<body>
+    <div>
+        @*@Html.DisplayName("num") - @Html.Editor("num")<br /><br />*@
+
+        @*@Html.DisplayName("Name") - @Html.EditorFor(s => s.Name)<br /><br />*@
+
+        @Html.DisplayName("Name") - @Html.EditorForModel()<br /><br />
+    </div>
+</body>
+</html>
