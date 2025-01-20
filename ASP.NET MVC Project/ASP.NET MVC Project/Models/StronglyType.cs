@@ -10,5 +10,7 @@ namespace ASP.NET_MVC_Project.Models
         public int No { get; set; }
         public string Name { get; set; }
         public string Address { get; set; }
+
+        public bool value { get; set; }
     }
 }

@@ -43,6 +43,7 @@ namespace ASP.NET_MVC_Project.Controllers
 
         private List<Students> Students()
         {
+            List<Students> st = new List<Students>();
             return new List<Students>()
             {
                 new Students()
