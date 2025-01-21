@@ -1,0 +1,6 @@
+C:\Users\mayan\OneDrive\Desktop\ASP.NET MVC Tutorial\ASP.NET MVC Project\MyApp.Models\bin\Debug\MyApp.Models.dll
+C:\Users\mayan\OneDrive\Desktop\ASP.NET MVC Tutorial\ASP.NET MVC Project\MyApp.Models\bin\Debug\MyApp.Models.pdb
+C:\Users\mayan\OneDrive\Desktop\ASP.NET MVC Tutorial\ASP.NET MVC Project\MyApp.Models\obj\Debug\MyApp.Models.csproj.AssemblyReference.cache
+C:\Users\mayan\OneDrive\Desktop\ASP.NET MVC Tutorial\ASP.NET MVC Project\MyApp.Models\obj\Debug\MyApp.Models.csproj.CoreCompileInputs.cache
+C:\Users\mayan\OneDrive\Desktop\ASP.NET MVC Tutorial\ASP.NET MVC Project\MyApp.Models\obj\Debug\MyApp.Models.dll
+C:\Users\mayan\OneDrive\Desktop\ASP.NET MVC Tutorial\ASP.NET MVC Project\MyApp.Models\obj\Debug\MyApp.Models.pdb

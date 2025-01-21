@@ -45,9 +45,13 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Microsoft.AspNet.Scaffolding.EntityFramework.12.0, Version=17.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="System" />
     <Reference Include="System.Data" />
+    <Reference Include="System.Data.SqlClient, Version=4.6.2.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Data.SqlClient.4.9.0\lib\net462\System.Data.SqlClient.dll</HintPath>
+    </Reference>
     <Reference Include="System.Drawing" />
     <Reference Include="System.Web.DynamicData" />
     <Reference Include="System.Web.Entity" />
@@ -136,6 +140,7 @@
     <Compile Include="Controllers\RazorViewController.cs" />
     <Compile Include="Controllers\RenderPageController.cs" />
     <Compile Include="Controllers\RoutefileController.cs" />
+    <Compile Include="Controllers\SaveDataController.cs" />
     <Compile Include="Controllers\SectionLayoutController.cs" />
     <Compile Include="Controllers\StandardHelperController.cs" />
     <Compile Include="Controllers\StronglyBindingValidationController.cs" />
@@ -153,6 +158,7 @@
     <Compile Include="Models\Students.cs" />
     <Compile Include="Models\TemplatedHtmlHelpers.cs" />
     <Compile Include="newvalidation.cs" />
+    <Compile Include="obj\Debug\.NETFramework,Version=v4.7.2.AssemblyAttributes.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -175,12 +181,21 @@
     <Content Include="favicon.ico" />
     <Content Include="Global.asax" />
     <Content Include="Content\Site.css" />
+    <Content Include="obj\Debug\ASP.NET MVC Project.csproj.FileListAbsolute.txt" />
+    <Content Include="obj\Debug\ASP.NET MVC Project.dll" />
+    <Content Include="obj\Debug\ASP.NET MVC Project.pdb" />
     <Content Include="Scripts\bootstrap.bundle.js" />
     <Content Include="Scripts\bootstrap.bundle.min.js" />
     <Content Include="Scripts\bootstrap.esm.js" />
     <Content Include="Scripts\bootstrap.esm.min.js" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
+    <Content Include="obj\Debug\ASP.NET .4CE73E73.Up2Date" />
+    <Content Include="obj\Debug\ASP.NET MVC Project.csproj.AssemblyReference.cache" />
+    <Content Include="obj\Debug\ASP.NET MVC Project.csproj.CoreCompileInputs.cache" />
+    <Content Include="obj\Debug\build.force" />
+    <Content Include="obj\Debug\DesignTimeResolveAssemblyReferences.cache" />
+    <Content Include="obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache" />
     <None Include="Scripts\jquery-3.7.0.intellisense.js" />
     <Content Include="Scripts\jquery-3.7.0.js" />
     <Content Include="Scripts\jquery-3.7.0.min.js" />
@@ -248,9 +263,11 @@
     <Content Include="Views\RenderPage\Index.cshtml" />
     <Content Include="Views\RenderPage\Index2.cshtml" />
     <Content Include="Views\Shared\_RenderLayout.cshtml" />
+    <Content Include="Views\SaveData\Create.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+    <Folder Include="obj\Debug\TempPE\" />
     <Folder Include="Views\CustomHelper\" />
     <Folder Include="Views\Parameter\" />
     <Folder Include="Views\StronglyType\" />
@@ -286,6 +303,10 @@
     <ProjectReference Include="..\MVCApplication.DB\MVCApplication.DB.csproj">
       <Project>{c6a0409a-dee6-49fa-8719-42467bea293c}</Project>
       <Name>MVCApplication.DB</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\MyApp.Models\MyApp.Models.csproj">
+      <Project>{9c5ecf24-1b5f-4dec-95dd-0bfb83b2f724}</Project>
+      <Name>MyApp.Models</Name>
     </ProjectReference>
   </ItemGroup>
   <PropertyGroup>

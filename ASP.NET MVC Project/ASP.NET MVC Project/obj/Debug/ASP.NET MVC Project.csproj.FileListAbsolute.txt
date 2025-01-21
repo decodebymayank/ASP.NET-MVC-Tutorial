@@ -209,9 +209,13 @@ C:\Users\mayan\OneDrive\Desktop\ASP.NET MVC Tutorial\ASP.NET MVC Project\ASP.NET
 C:\Users\mayan\OneDrive\Desktop\ASP.NET MVC Tutorial\ASP.NET MVC Project\ASP.NET MVC Project\bin\roslyn\VBCSCompiler.exe
 C:\Users\mayan\OneDrive\Desktop\ASP.NET MVC Tutorial\ASP.NET MVC Project\ASP.NET MVC Project\bin\roslyn\VBCSCompiler.exe.config
 C:\Users\mayan\OneDrive\Desktop\ASP.NET MVC Tutorial\ASP.NET MVC Project\ASP.NET MVC Project\bin\Antlr3.Runtime.dll
+C:\Users\mayan\OneDrive\Desktop\ASP.NET MVC Tutorial\ASP.NET MVC Project\ASP.NET MVC Project\bin\Microsoft.AspNet.Scaffolding.EntityFramework.12.0.dll
 C:\Users\mayan\OneDrive\Desktop\ASP.NET MVC Tutorial\ASP.NET MVC Project\ASP.NET MVC Project\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
 C:\Users\mayan\OneDrive\Desktop\ASP.NET MVC Tutorial\ASP.NET MVC Project\ASP.NET MVC Project\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\mayan\OneDrive\Desktop\ASP.NET MVC Tutorial\ASP.NET MVC Project\ASP.NET MVC Project\bin\MVCApplication.DB.dll
+C:\Users\mayan\OneDrive\Desktop\ASP.NET MVC Tutorial\ASP.NET MVC Project\ASP.NET MVC Project\bin\MyApp.Models.dll
 C:\Users\mayan\OneDrive\Desktop\ASP.NET MVC Tutorial\ASP.NET MVC Project\ASP.NET MVC Project\bin\Newtonsoft.Json.dll
+C:\Users\mayan\OneDrive\Desktop\ASP.NET MVC Tutorial\ASP.NET MVC Project\ASP.NET MVC Project\bin\System.Data.SqlClient.dll
 C:\Users\mayan\OneDrive\Desktop\ASP.NET MVC Tutorial\ASP.NET MVC Project\ASP.NET MVC Project\bin\System.Web.Helpers.dll
 C:\Users\mayan\OneDrive\Desktop\ASP.NET MVC Tutorial\ASP.NET MVC Project\ASP.NET MVC Project\bin\System.Web.Mvc.dll
 C:\Users\mayan\OneDrive\Desktop\ASP.NET MVC Tutorial\ASP.NET MVC Project\ASP.NET MVC Project\bin\System.Web.Optimization.dll
@@ -220,6 +224,33 @@ C:\Users\mayan\OneDrive\Desktop\ASP.NET MVC Tutorial\ASP.NET MVC Project\ASP.NET
 C:\Users\mayan\OneDrive\Desktop\ASP.NET MVC Tutorial\ASP.NET MVC Project\ASP.NET MVC Project\bin\System.Web.WebPages.dll
 C:\Users\mayan\OneDrive\Desktop\ASP.NET MVC Tutorial\ASP.NET MVC Project\ASP.NET MVC Project\bin\System.Web.WebPages.Razor.dll
 C:\Users\mayan\OneDrive\Desktop\ASP.NET MVC Tutorial\ASP.NET MVC Project\ASP.NET MVC Project\bin\WebGrease.dll
+C:\Users\mayan\OneDrive\Desktop\ASP.NET MVC Tutorial\ASP.NET MVC Project\ASP.NET MVC Project\bin\EntityFramework.dll
+C:\Users\mayan\OneDrive\Desktop\ASP.NET MVC Tutorial\ASP.NET MVC Project\ASP.NET MVC Project\bin\Microsoft.VisualStudio.Interop.dll
+C:\Users\mayan\OneDrive\Desktop\ASP.NET MVC Tutorial\ASP.NET MVC Project\ASP.NET MVC Project\bin\Microsoft.AspNet.Scaffolding.12.0.dll
+C:\Users\mayan\OneDrive\Desktop\ASP.NET MVC Tutorial\ASP.NET MVC Project\ASP.NET MVC Project\bin\Microsoft.VisualStudio.Imaging.Interop.14.0.DesignTime.dll
+C:\Users\mayan\OneDrive\Desktop\ASP.NET MVC Tutorial\ASP.NET MVC Project\ASP.NET MVC Project\bin\Microsoft.VisualStudio.Shell.Design.dll
+C:\Users\mayan\OneDrive\Desktop\ASP.NET MVC Tutorial\ASP.NET MVC Project\ASP.NET MVC Project\bin\Microsoft.VisualStudio.TextTemplating.Interfaces.11.0.dll
+C:\Users\mayan\OneDrive\Desktop\ASP.NET MVC Tutorial\ASP.NET MVC Project\ASP.NET MVC Project\bin\Microsoft.VisualStudio.TextTemplating.Interfaces.10.0.dll
+C:\Users\mayan\OneDrive\Desktop\ASP.NET MVC Tutorial\ASP.NET MVC Project\ASP.NET MVC Project\bin\Microsoft.VisualStudio.Shell.Framework.dll
+C:\Users\mayan\OneDrive\Desktop\ASP.NET MVC Tutorial\ASP.NET MVC Project\ASP.NET MVC Project\bin\Microsoft.VisualStudio.Shell.15.0.dll
+C:\Users\mayan\OneDrive\Desktop\ASP.NET MVC Tutorial\ASP.NET MVC Project\ASP.NET MVC Project\bin\System.Threading.Tasks.Extensions.dll
+C:\Users\mayan\OneDrive\Desktop\ASP.NET MVC Tutorial\ASP.NET MVC Project\ASP.NET MVC Project\bin\Microsoft.VisualStudio.Telemetry.dll
+C:\Users\mayan\OneDrive\Desktop\ASP.NET MVC Tutorial\ASP.NET MVC Project\ASP.NET MVC Project\bin\Microsoft.VisualStudio.GraphModel.dll
+C:\Users\mayan\OneDrive\Desktop\ASP.NET MVC Tutorial\ASP.NET MVC Project\ASP.NET MVC Project\bin\System.Memory.dll
+C:\Users\mayan\OneDrive\Desktop\ASP.NET MVC Tutorial\ASP.NET MVC Project\ASP.NET MVC Project\bin\Microsoft.VisualStudio.RpcContracts.dll
+C:\Users\mayan\OneDrive\Desktop\ASP.NET MVC Tutorial\ASP.NET MVC Project\ASP.NET MVC Project\bin\System.Collections.Immutable.dll
+C:\Users\mayan\OneDrive\Desktop\ASP.NET MVC Tutorial\ASP.NET MVC Project\ASP.NET MVC Project\bin\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\mayan\OneDrive\Desktop\ASP.NET MVC Tutorial\ASP.NET MVC Project\ASP.NET MVC Project\bin\Microsoft.VisualStudio.ProjectAggregator.dll
+C:\Users\mayan\OneDrive\Desktop\ASP.NET MVC Tutorial\ASP.NET MVC Project\ASP.NET MVC Project\bin\System.Buffers.dll
+C:\Users\mayan\OneDrive\Desktop\ASP.NET MVC Tutorial\ASP.NET MVC Project\ASP.NET MVC Project\bin\Microsoft.VisualStudio.Utilities.Internal.dll
+C:\Users\mayan\OneDrive\Desktop\ASP.NET MVC Tutorial\ASP.NET MVC Project\ASP.NET MVC Project\bin\Microsoft.VisualStudio.RemoteControl.dll
+C:\Users\mayan\OneDrive\Desktop\ASP.NET MVC Tutorial\ASP.NET MVC Project\ASP.NET MVC Project\bin\System.Numerics.Vectors.dll
+C:\Users\mayan\OneDrive\Desktop\ASP.NET MVC Tutorial\ASP.NET MVC Project\ASP.NET MVC Project\bin\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\mayan\OneDrive\Desktop\ASP.NET MVC Tutorial\ASP.NET MVC Project\ASP.NET MVC Project\bin\MVCApplication.DB.pdb
+C:\Users\mayan\OneDrive\Desktop\ASP.NET MVC Tutorial\ASP.NET MVC Project\ASP.NET MVC Project\bin\MVCApplication.DB.dll.config
+C:\Users\mayan\OneDrive\Desktop\ASP.NET MVC Tutorial\ASP.NET MVC Project\ASP.NET MVC Project\bin\MyApp.Models.pdb
+C:\Users\mayan\OneDrive\Desktop\ASP.NET MVC Tutorial\ASP.NET MVC Project\ASP.NET MVC Project\bin\Microsoft.AspNet.Scaffolding.EntityFramework.12.0.xml
+C:\Users\mayan\OneDrive\Desktop\ASP.NET MVC Tutorial\ASP.NET MVC Project\ASP.NET MVC Project\bin\System.Data.SqlClient.xml
 C:\Users\mayan\OneDrive\Desktop\ASP.NET MVC Tutorial\ASP.NET MVC Project\ASP.NET MVC Project\bin\System.Web.Helpers.xml
 C:\Users\mayan\OneDrive\Desktop\ASP.NET MVC Tutorial\ASP.NET MVC Project\ASP.NET MVC Project\bin\System.Web.Mvc.xml
 C:\Users\mayan\OneDrive\Desktop\ASP.NET MVC Tutorial\ASP.NET MVC Project\ASP.NET MVC Project\bin\System.Web.Optimization.xml
@@ -230,6 +261,9 @@ C:\Users\mayan\OneDrive\Desktop\ASP.NET MVC Tutorial\ASP.NET MVC Project\ASP.NET
 C:\Users\mayan\OneDrive\Desktop\ASP.NET MVC Tutorial\ASP.NET MVC Project\ASP.NET MVC Project\bin\Newtonsoft.Json.xml
 C:\Users\mayan\OneDrive\Desktop\ASP.NET MVC Tutorial\ASP.NET MVC Project\ASP.NET MVC Project\bin\Antlr3.Runtime.pdb
 C:\Users\mayan\OneDrive\Desktop\ASP.NET MVC Tutorial\ASP.NET MVC Project\ASP.NET MVC Project\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\mayan\OneDrive\Desktop\ASP.NET MVC Tutorial\ASP.NET MVC Project\ASP.NET MVC Project\bin\EntityFramework.xml
+C:\Users\mayan\OneDrive\Desktop\ASP.NET MVC Tutorial\ASP.NET MVC Project\ASP.NET MVC Project\bin\Microsoft.AspNet.Scaffolding.12.0.xml
+C:\Users\mayan\OneDrive\Desktop\ASP.NET MVC Tutorial\ASP.NET MVC Project\ASP.NET MVC Project\bin\Microsoft.VisualStudio.GraphModel.xml
 C:\Users\mayan\OneDrive\Desktop\ASP.NET MVC Tutorial\ASP.NET MVC Project\ASP.NET MVC Project\obj\Debug\ASP.NET MVC Project.csproj.AssemblyReference.cache
 C:\Users\mayan\OneDrive\Desktop\ASP.NET MVC Tutorial\ASP.NET MVC Project\ASP.NET MVC Project\obj\Debug\ASP.NET MVC Project.csproj.CoreCompileInputs.cache
 C:\Users\mayan\OneDrive\Desktop\ASP.NET MVC Tutorial\ASP.NET MVC Project\ASP.NET MVC Project\obj\Debug\ASP.NET .4CE73E73.Up2Date

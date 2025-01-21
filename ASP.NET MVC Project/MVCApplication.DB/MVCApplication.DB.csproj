@@ -61,11 +61,6 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>ApplicationModel.Context.tt</DependentUpon>
     </Compile>
-    <Compile Include="ApplicationModel.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>ApplicationModel.tt</DependentUpon>
-    </Compile>
     <Compile Include="ApplicationModel.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -103,6 +98,12 @@
   </ItemGroup>
   <ItemGroup>
     <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\MyApp.Models\MyApp.Models.csproj">
+      <Project>{9c5ecf24-1b5f-4dec-95dd-0bfb83b2f724}</Project>
+      <Name>MyApp.Models</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">

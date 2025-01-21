@@ -1,0 +1,14 @@
+C:\Users\mayan\OneDrive\Desktop\ASP.NET MVC Tutorial\ASP.NET MVC Project\MVCApplication.DB\bin\Debug\MVCApplication.DB.dll.config
+C:\Users\mayan\OneDrive\Desktop\ASP.NET MVC Tutorial\ASP.NET MVC Project\MVCApplication.DB\bin\Debug\MVCApplication.DB.dll
+C:\Users\mayan\OneDrive\Desktop\ASP.NET MVC Tutorial\ASP.NET MVC Project\MVCApplication.DB\bin\Debug\MVCApplication.DB.pdb
+C:\Users\mayan\OneDrive\Desktop\ASP.NET MVC Tutorial\ASP.NET MVC Project\MVCApplication.DB\bin\Debug\EntityFramework.dll
+C:\Users\mayan\OneDrive\Desktop\ASP.NET MVC Tutorial\ASP.NET MVC Project\MVCApplication.DB\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\mayan\OneDrive\Desktop\ASP.NET MVC Tutorial\ASP.NET MVC Project\MVCApplication.DB\bin\Debug\MyApp.Models.dll
+C:\Users\mayan\OneDrive\Desktop\ASP.NET MVC Tutorial\ASP.NET MVC Project\MVCApplication.DB\bin\Debug\MyApp.Models.pdb
+C:\Users\mayan\OneDrive\Desktop\ASP.NET MVC Tutorial\ASP.NET MVC Project\MVCApplication.DB\bin\Debug\EntityFramework.xml
+C:\Users\mayan\OneDrive\Desktop\ASP.NET MVC Tutorial\ASP.NET MVC Project\MVCApplication.DB\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\mayan\OneDrive\Desktop\ASP.NET MVC Tutorial\ASP.NET MVC Project\MVCApplication.DB\obj\Debug\MVCApplication.DB.csproj.AssemblyReference.cache
+C:\Users\mayan\OneDrive\Desktop\ASP.NET MVC Tutorial\ASP.NET MVC Project\MVCApplication.DB\obj\Debug\MVCApplication.DB.csproj.CoreCompileInputs.cache
+C:\Users\mayan\OneDrive\Desktop\ASP.NET MVC Tutorial\ASP.NET MVC Project\MVCApplication.DB\obj\Debug\MVCAppli.F6AC7B2A.Up2Date
+C:\Users\mayan\OneDrive\Desktop\ASP.NET MVC Tutorial\ASP.NET MVC Project\MVCApplication.DB\obj\Debug\MVCApplication.DB.dll
+C:\Users\mayan\OneDrive\Desktop\ASP.NET MVC Tutorial\ASP.NET MVC Project\MVCApplication.DB\obj\Debug\MVCApplication.DB.pdb
