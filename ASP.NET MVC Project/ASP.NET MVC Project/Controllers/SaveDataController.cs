@@ -67,5 +67,14 @@ namespace ASP.NET_MVC_Project.Controllers
             }
             return View();
         }
+        public ActionResult DeleteEmpData(int id)
+        {
+            if (ModelState.IsValid)
+            {
+                repo.DeleteEmployee(id);
+                return RedirectToAction("GetEmpData");
+            }
+            return View();
+        }
     }
 }

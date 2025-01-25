@@ -107,5 +107,20 @@ namespace MVCApplication.DB.DB_Operations
                 return getdata;
             }
         }
+
+        public bool DeleteEmployee(int id)
+        {
+            using (var context = new EmployeeDBEntities())
+            {
+                var getdata = context.Employees.Where(s => s.id == id).FirstOrDefault();
+                if(getdata!=null)
+                {
+                    context.Employees.Remove(getdata);
+                    context.SaveChanges();
+                    return true;
+                }
+            }
+            return false;
+        }
     }
 }
