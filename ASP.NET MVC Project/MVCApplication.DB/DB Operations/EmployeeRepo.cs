@@ -20,8 +20,17 @@ namespace MVCApplication.DB.DB_Operations
                     LastName = model.LastName,
                     Email = model.Email,
                     Code = model.Code
+                    
                 };
-
+                if(model.Address!=null)
+                {
+                    emp.Address = new Address()
+                    {
+                        Detail = model.Address.Detail,
+                        Country = model.Address.Country,
+                        State = model.Address.State,
+                    };
+                }
                 context.Employees.Add(emp);
                 context.SaveChanges();
 
