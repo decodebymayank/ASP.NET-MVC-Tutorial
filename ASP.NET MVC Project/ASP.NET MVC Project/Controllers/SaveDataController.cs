@@ -50,5 +50,22 @@ namespace ASP.NET_MVC_Project.Controllers
             var getempdata = repo.GetEmployeeData(id);
             return View(getempdata);
         }
+
+        public ActionResult EditmpData(int id)
+        {
+            var getempdata = repo.GetEmployeeData(id);
+            return View(getempdata);
+        }
+
+        [HttpPost]
+        public ActionResult UpdateEmpData(EmployeeModel emp)
+        {
+            if(ModelState.IsValid)
+            {
+                repo.UpdateEmpData(emp.id, emp);
+                return RedirectToAction("GetEmpData");
+            }
+            return View();
+        }
     }
 }

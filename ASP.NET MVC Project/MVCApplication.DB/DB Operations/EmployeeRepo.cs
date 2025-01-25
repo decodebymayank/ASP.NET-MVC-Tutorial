@@ -62,6 +62,28 @@ namespace MVCApplication.DB.DB_Operations
             }
         }
 
+        public bool UpdateEmpData(int id , EmployeeModel model)
+        {
+            using (var context = new EmployeeDBEntities())
+            {
+                var getdata = context.Employees.FirstOrDefault(s=>s.id == id);
+                if(getdata!=null)
+                {
+                    getdata.FirstName = model.FirstName;
+                    getdata.LastName = model.LastName;
+                    
+                }
+                else
+                {
+                    return false;
+                }
+
+                context.SaveChanges();
+
+                return true;
+            }
+        }
+
         public EmployeeModel GetEmployeeData(int id)
         {
             using(var context = new EmployeeDBEntities())
