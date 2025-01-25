@@ -67,6 +67,7 @@ namespace ASP.NET_MVC_Project.Controllers
             }
             return View();
         }
+        //Delete Code Data
         public ActionResult DeleteEmpData(int id)
         {
             if (ModelState.IsValid)
