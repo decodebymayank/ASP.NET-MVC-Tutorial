@@ -38,5 +38,17 @@ namespace ASP.NET_MVC_Project.Controllers
             return View();
         }
 
+        [HttpGet]
+        public ActionResult GetEmpData()
+        {
+            var getempdata = repo.GetAllEmployees();
+            return View(getempdata);
+        }
+        [HttpGet]
+        public ActionResult GetEmpDataById(int id)
+        {
+            var getempdata = repo.GetEmployeeData(id);
+            return View(getempdata);
+        }
     }
 }

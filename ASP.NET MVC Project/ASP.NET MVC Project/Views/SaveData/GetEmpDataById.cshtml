@@ -1,0 +1,53 @@
+﻿@model MyApp.Models.EmployeeModel
+
+@{
+    ViewBag.Title = "GetEmpDataById";
+}
+
+<h2>GetEmpDataById</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.FirstName)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.LastName)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Email)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.AddressId)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Code)
+        </th>
+        <th></th>
+    </tr>
+
+@{ 
+    <tr>
+        <th>
+            @Model.FirstName
+        </th>
+        <th>
+            @Model.LastName
+        </th>
+        <th>
+            @Model.Email
+        </th>
+        <th>
+            @Model.AddressId
+        </th>
+        <th>
+            @Model.Code
+        </th>
+        <th></th>
+    </tr>
+}
+
+</table>

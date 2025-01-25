@@ -37,5 +37,53 @@ namespace MVCApplication.DB.DB_Operations
                 return emp.id;
             }
         }
+
+        public List<EmployeeModel> GetAllEmployees()
+        {
+            using(var context = new EmployeeDBEntities())
+            {
+                var getdata = context.Employees.Select(s=>new EmployeeModel()
+                {
+                    id = s.id,
+                    FirstName = s.FirstName,
+                    LastName = s.LastName,
+                    Email = s.Email,
+                    Code = s.Code,
+                    Address = new AddressModel()
+                    {
+                        Id = s.id,
+                        Detail = s.Address.Detail,
+                        Country = s.Address.Country,
+                        State = s.Address.State,
+                    }
+                }).ToList();
+
+                return getdata;
+            }
+        }
+
+        public EmployeeModel GetEmployeeData(int id)
+        {
+            using(var context = new EmployeeDBEntities())
+            {
+                var getdata = context.Employees.Where(s=>s.id == id).
+                    Select(s => new EmployeeModel()
+                {
+                    id = s.id,
+                    FirstName = s.FirstName,
+                    LastName = s.LastName,
+                    Email = s.Email,
+                    Code = s.Code,
+                    Address = new AddressModel()
+                    {
+                        Id = s.id,
+                        Detail = s.Address.Detail,
+                        Country = s.Address.Country,
+                        State = s.Address.State,
+                    }
+                }).FirstOrDefault();
+                return getdata;
+            }
+        }
     }
 }

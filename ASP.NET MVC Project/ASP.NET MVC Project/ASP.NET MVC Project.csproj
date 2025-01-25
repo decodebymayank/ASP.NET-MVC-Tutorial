@@ -264,6 +264,8 @@
     <Content Include="Views\RenderPage\Index2.cshtml" />
     <Content Include="Views\Shared\_RenderLayout.cshtml" />
     <Content Include="Views\SaveData\Create.cshtml" />
+    <Content Include="Views\SaveData\GetEmpData.cshtml" />
+    <Content Include="Views\SaveData\GetEmpDataById.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
