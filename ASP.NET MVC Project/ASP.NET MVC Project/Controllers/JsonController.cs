@@ -16,7 +16,7 @@ namespace ASP.NET_MVC_Project.Controllers
             return View();
         }
 
-        public JsonResult JsonMethod()
+        public JsonResult JsonGetMethod()
         {
             JsonModel obj = new JsonModel()
             {

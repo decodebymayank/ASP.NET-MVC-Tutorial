@@ -8,10 +8,37 @@
 <html>
 <head>
     <meta name="viewport" content="width=device-width" />
+    <script src="~/Scripts/jquery-3.7.0.js"></script>
     <title>Index</title>
 </head>
 <body>
-    <div> 
+    <div>
+        <h2>Id</h2> - <h1 id="stdId"></h1>
+        <h2>Name</h2> - <h1 id="stdName"></h1>
+        <h2>Email</h2> - <h1 id="stdEmail"></h1>
+
+        <input type="button" onclick="NewClick()" value="Click Here" />
+
     </div>
 </body>
 </html>
+
+<script>
+    function NewClick() {
+        $.ajax({
+            url: "/Json/JsonGetMethod",
+            method: "GET",
+            success: function (data) {
+                data = JSON.parse(data);
+                $("#stdId").text(data.Id);
+                $("#stdName").text(data.Name);
+                $("#stdEmail").text(data.Email);
+
+
+            },
+            error: function (err) {
+                console.log(err);
+            }
+        })
+    }
+</script>
