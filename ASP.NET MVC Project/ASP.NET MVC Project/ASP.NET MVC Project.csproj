@@ -131,6 +131,7 @@
     <Compile Include="Controllers\HtmlHelpersController.cs" />
     <Compile Include="Controllers\HttpVerbsController.cs" />
     <Compile Include="Controllers\JqueryController.cs" />
+    <Compile Include="Controllers\JsonController.cs" />
     <Compile Include="Controllers\LayoutView2Controller.cs" />
     <Compile Include="Controllers\LayoutViewController.cs" />
     <Compile Include="Controllers\LooselyBindingValidationController.cs" />
@@ -154,6 +155,7 @@
     </Compile>
     <Compile Include="Models\Address.cs" />
     <Compile Include="Models\Customclas.cs" />
+    <Compile Include="Models\JsonModel.cs" />
     <Compile Include="Models\mymodel.cs" />
     <Compile Include="Models\StronglyType.cs" />
     <Compile Include="Models\Students.cs" />
@@ -271,6 +273,7 @@
     <Content Include="Views\SaveData\UpdateEmpData.cshtml" />
     <Content Include="Views\SaveData\DeleteEmpData.cshtml" />
     <Content Include="Views\Jquery\Index.cshtml" />
+    <Content Include="Views\Json\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
