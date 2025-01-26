@@ -124,8 +124,15 @@ namespace MVCApplication.DB.DB_Operations
                 var emp = new Employee()
                 {
                     id = id,
+                   
+                   
                 };
+                emp.Address = new Address();
+                emp.Address.Id = Convert.ToInt32(emp.AddressId);
                 context.Entry(emp).State = System.Data.Entity.EntityState.Deleted;
+                
+
+
                 context.SaveChanges();
                 return true;
             }
