@@ -112,15 +112,24 @@ namespace MVCApplication.DB.DB_Operations
         {
             using (var context = new EmployeeDBEntities())
             {
-                var getdata = context.Employees.Where(s => s.id == id).FirstOrDefault();
-                if(getdata!=null)
+                //    var getdata = context.Employees.Where(s => s.id == id).FirstOrDefault();
+                //    if(getdata!=null)
+                //    {
+                //        context.Employees.Remove(getdata);
+                //        context.SaveChanges();
+                //        return true;
+                //    }
+                //}
+
+                var emp = new Employee()
                 {
-                    context.Employees.Remove(getdata);
-                    context.SaveChanges();
-                    return true;
-                }
+                    id = id,
+                };
+                context.Entry(emp).State = System.Data.Entity.EntityState.Deleted;
+                context.SaveChanges();
+                return true;
             }
-            return false;
+            
         }
     }
 }
